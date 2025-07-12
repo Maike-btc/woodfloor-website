@@ -3,118 +3,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>LO Construction</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #2e1e14;
-      color: #f6e6cf;
-    }
-    header {
-      background: url('https://images.unsplash.com/photo-1600566753444-d3d7e2ebd36c?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
-      padding: 60px 20px;
-      text-align: center;
-      color: #fff3da;
-      box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
-    }
-    header h1 {
-      font-size: 3em;
-      margin: 0;
-    }
-    header p {
-      font-size: 1.2em;
-      margin-top: 10px;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #f5d393;
-      margin-bottom: 10px;
-    }
-    .card {
-      background-color: #5c3413;
-      padding: 20px;
-      border-radius: 8px;
-      margin-bottom: 30px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #1c120a;
-      color: #aa8d66;
-    }
-    .gallery {
-      display: flex;
-      gap: 20px;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    .gallery img {
-      width: 250px;
-      border-radius: 8px;
-      border: 2px solid #aa8d66;
-    }
-    .whatsapp-button {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 10px 20px;
-      background-color: #f5d393;
-      color: #000;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>LO CONSTRUCTION</h1>
-    <p>Hardwood Flooring · Remodeling · General Carpentry</p>
+  <header class="hero">
+    <div class="overlay">
+      <h1>LO CONSTRUCTION</h1>
+      <p>Hardwood Flooring · Remodeling · General Carpentry</p>
+    </div>
   </header>
 
-  <section>
-    <div class="card">
-      <h2>Our Services</h2>
-      <ul>
-        <li>Hardwood floor installation</li>
-        <li>Floor sanding and refinishing</li>
-        <li>Laminate and vinyl flooring</li>
-        <li>Tile installation</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>About Us</h2>
-      <p>LO Construction has years of experience in hardwood flooring and tile installation. We offer quality, punctuality, and fair prices for homes, apartments, and commercial spaces across New Jersey, New York, and Philadelphia.</p>
-    </div>
-
-    <div class="card">
-      <h2>Contact</h2>
-      <p><strong>Phone / WhatsApp:</strong> (133) 456-7890</p>
-      <p><strong>Email:</strong> contact@loconstruction.com</p>
-      <a class="whatsapp-button" href="https://wa.me/1334567890" target="_blank">Message us on WhatsApp</a>
-    </div>
-
-    <div class="card">
-      <h2>Gallery</h2>
-      <div class="gallery">
-        <img src="https://i.imgur.com/jhZKxCU.jpeg" alt="Floor sample 1" />
-        <img src="https://i.imgur.com/Z6VdBrA.jpeg" alt="Floor sample 2" />
-        <img src="https://i.imgur.com/y2cMXbT.jpeg" alt="Floor sample 3" />
+  <main>
+    <section class="content">
+      <div class="column">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Hardwood floor installation</li>
+          <li>Floor sanding and refinishing</li>
+          <li>Laminate and vinyl flooring</li>
+          <li>Tile installation</li>
+        </ul>
       </div>
-    </div>
-  </section>
+      <div class="column">
+        <h2>About Us</h2>
+        <p>
+          LO Construction has years of experience in hardwood flooring.
+          We offer quality, punctuality, and fair prices for homes,
+          apartments, and commercial spaces across New Jersey, New York, and
+          Philadelphia.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Get a Free Quote</h2>
+      <p><strong>Phone / WhatsApp:</strong> (133) 456-7890</p>
+      <button>Message us on WhatsApp</button>
+    </section>
+
+    <section class="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-images">
+        <img src="images/floor1.jpg" alt="Floor 1" />
+        <img src="images/floor2.jpg" alt="Floor 2" />
+        <img src="images/floor3.jpg" alt="Floor 3" />
+      </div>
+    </section>
+  </main>
 
   <footer>
-    &copy; 2025 LO Construction. All rights reserved.
+    <p>© 2025 LO Construction. All rights reserved.</p>
   </footer>
 </body>
 </html>
