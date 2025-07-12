@@ -7,7 +7,7 @@ body {
 }
 
 .hero {
-  background-image: url("A_webpage_for_LO_Construction_is_displayed_with_a_.png");
+  background-image: url("hero-bg.png");
   background-size: cover;
   background-position: center;
   color: #fce8c3;
