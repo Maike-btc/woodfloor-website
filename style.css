@@ -7,13 +7,12 @@ body {
 }
 
 .hero {
-  background: url('images/header.jpg') no-repeat center center/cover;
-  height: 300px;
-  position: relative;
+  background-image: url("A_webpage_for_LO_Construction_is_displayed_with_a_.png");
+  background-size: cover;
+  background-position: center;
+  color: #fce8c3;
+  padding: 5rem 1rem;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .hero .overlay {
