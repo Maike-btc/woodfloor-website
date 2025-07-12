@@ -84,3 +84,11 @@ footer {
   background-color: #000;
   color: #fce8c3;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
+}
