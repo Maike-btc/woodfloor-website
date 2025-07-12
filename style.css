@@ -68,20 +68,9 @@ button {
   margin-top: 1rem;
 }
 
-.gallery {
-  background-color: #4d2600;
-  padding: 1rem;
-  border-radius: 8px;
-}
-
-.gallery-images {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.gallery-images img {
-  width: 100px;
+.gallery img {
+  width: 100%;
+  max-width: 300px;
   height: auto;
   border-radius: 4px;
 }
