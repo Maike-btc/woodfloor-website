@@ -70,9 +70,11 @@ button {
 
 .gallery img {
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   height: auto;
-  border-radius: 4px;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
 }
 
 footer {
